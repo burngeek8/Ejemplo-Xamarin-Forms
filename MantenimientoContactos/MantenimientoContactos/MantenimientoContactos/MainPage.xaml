@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MantenimientoContactos"
+             x:Class="MantenimientoContactos.MainPage">
+
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Label x:Name="lblMensaje" Text="Welcome to Xamarin.Forms!"/>
+        <Button x:Name="btnAccion" Clicked="BtnAccion_OnClicked" 
+                Text="Clickeame!!!!"></Button>
+    </StackLayout>
+</ContentPage>
